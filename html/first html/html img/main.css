@@ -1,0 +1,25 @@
+.how{
+    font-weight: bold;
+}
+#tip{
+    font-style: italic;
+}
+h1{
+    margin: 20px;  
+    padding: 10px;
+}
+h2{
+    margin: 30px;
+}
+#main{
+    margin: 30px;
+}
+#time{
+    margin: 30px;
+}
+#h{
+    margin: 30px;
+}
+#money{
+    margin: 20px;
+}
