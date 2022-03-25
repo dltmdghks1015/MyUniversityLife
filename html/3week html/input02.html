@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./input02.css">
+        <title>Input</title>
+    </head>
+    <body>
+        <div id="container">
+            <ul>
+                <li>
+                    아이디 : <input type="text" maxlength="12" placeholder="이름">
+                </li>
+                <li>
+                    비밀번호 : <input type="password" maxlength="12" placeholder="비밀번호">
+                </li>
+                <li>
+                    이메일 : <input type="email" id="user_email">
+                </li>
+                <li>
+                    전화번호 : 010 - <input type="tel" id="user_tel1" maxlength="4" size="4"><input type="tel" id="user_tel2" max="4" size="4">
+                </li>
+                <li>
+                    여러개 선택: 
+                    <label><input type="checkbox"> 바나나 </label>
+                    <label><input type="checkbox"> 사과 </label>
+                </li>
+                <li>
+                    하나만 선택:
+                    <label><input type="radio" name="fruits"> 바나나</label>
+                    <label><input type="radio" name="fruits"> 사과 </label>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
