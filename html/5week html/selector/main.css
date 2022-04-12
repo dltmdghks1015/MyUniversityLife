@@ -1,0 +1,32 @@
+@import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css);
+.tfamily{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tbold{
+    font-weight: 900;
+    font-weight: bolder;
+}
+.tsize{
+    font-size: 1.5em;
+    font-size: ;
+}
+.tcolor{
+    color: aquamarine;
+}
+.tstyle{
+    font-style: italic;
+    font-style: oblique;
+}
+.tbolder{
+    font-weight: bolder;
+}
+.theight{
+    line-height: 2em;
+}
+.tdeco{
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+.talign{
+    text-align: right;
+}
